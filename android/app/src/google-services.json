@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1060334288533",
+    "project_id": "conslt-b001a",
+    "storage_bucket": "conslt-b001a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060334288533:android:77f69a711a91e98f6c259c",
+        "android_client_info": {
+          "package_name": "com.conslt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060334288533-c9bi55673ou696fcqpnrogdf06e6ntkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXOefYV7-RPg7XdyhD6sZQ25UgJeolu-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060334288533-c9bi55673ou696fcqpnrogdf06e6ntkk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
