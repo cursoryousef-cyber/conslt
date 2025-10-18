@@ -1,0 +1,78 @@
+========================================
+   الأوامر المطلوبة بالترتيب
+   Required Commands in Order
+========================================
+
+نسخ ولصق في PowerShell:
+Copy and paste in PowerShell:
+
+========================================
+   Android APK
+========================================
+
+cd F:\appconsult
+
+flutter clean
+
+flutter pub get
+
+flutter build apk --release
+
+# APK في: build\app\outputs\flutter-apk\app-release.apk
+
+========================================
+   iOS - إصلاح الملفات
+========================================
+
+flutter create --platforms=ios .
+
+# عند السؤال: اكتب a ثم Enter
+
+========================================
+   iOS - رفع على GitHub
+========================================
+
+git init
+
+git add .
+
+git commit -m "Doctor Consultation App - Complete"
+
+# أنشئ repository على github.com/new أولاً
+# ثم استبدل YOUR_USERNAME بحسابك:
+
+git remote add origin https://github.com/YOUR_USERNAME/doctor-consultation.git
+
+git branch -M main
+
+git push -u origin main
+
+========================================
+   iOS - بناء على Codemagic
+========================================
+
+1. https://codemagic.io/signup
+2. Sign up with GitHub
+3. Add application
+4. اختر doctor-consultation
+5. iOS workflow
+6. Automatic code signing
+7. Connect Apple Developer
+8. Start build
+9. Download IPA
+
+========================================
+   Firebase (مهم!)
+========================================
+
+https://console.firebase.google.com/project/conslt-b001a
+
+فعّل:
+- Authentication
+- Firestore
+- Storage
+
+(القواعد في STEP_BY_STEP.md)
+
+========================================
+
